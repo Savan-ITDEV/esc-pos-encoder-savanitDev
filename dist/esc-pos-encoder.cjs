@@ -4,7 +4,7 @@ var linewrap = require("linewrap");
 var canvas = require("canvas");
 var Dither = require("canvas-dither");
 var Flatten = require("canvas-flatten");
-var CodepageEncoder = require("codepage-encoder");
+var CodepageEncoder = require("codepage-encoder-savanitdev");
 
 const codepageMappings = {
   epson: {
